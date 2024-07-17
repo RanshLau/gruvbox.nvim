@@ -314,7 +314,7 @@ local function get_groups()
     CurSearch = { link = "IncSearch" },
     QuickFixLine = { link = "GruvboxPurple" },
     Underlined = { fg = colors.blue, underline = config.underline },
-    StatusLine = { fg = colors.bg1, bg = colors.fg1, reverse = config.inverse },
+    StatusLine = { fg = colors.bg2, bg = colors.bg2, reverse = config.inverse },
     StatusLineNC = { fg = colors.bg1, bg = colors.fg4, reverse = config.inverse },
     WinBar = { fg = colors.fg4, bg = colors.bg0 },
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },

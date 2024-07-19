@@ -400,7 +400,7 @@ local function get_groups()
     DiagnosticVirtualTextInfo = { link = "GruvboxBlue" },
     DiagnosticVirtualTextHint = { link = "GruvboxAqua" },
     DiagnosticOk = { link = "GruvboxGreenSign" },
-    FidgetNormal= { fg = colors.light0, bg = colors.dark1 },
+    FidgetNormal= { fg = colors.light0, bg = nil },
     LspReferenceRead = { link = "GruvboxYellowBold" },
     LspReferenceText = { bg = colors.bg4 },
     LspReferenceWrite = { link = "GruvboxOrangeBold" },

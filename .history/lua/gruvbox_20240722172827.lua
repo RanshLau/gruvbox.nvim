@@ -483,7 +483,7 @@ local function get_groups()
     CocInfoHighlight = { link = "GruvboxBlueUnderline" },
     CocHintHighlight = { link = "GruvboxAquaUnderline" },
     TelescopeSelection = { fg = colors.bg0, bg = colors.fg2 },
-    TelescopeSelectionCaret = { fg = colors.bg0, bg = colors.fg2 },
+    TelescopeSelectionCaret = { link = "GruvboxRed" },
     TelescopeMultiSelection = { link = "GruvboxGray" },
     TelescopeBorder = { fg = colors.bg1, bg = colors.bg1 },
     TelescopePromptBorder = { fg = colors.bg2, bg = colors.bg2 },
